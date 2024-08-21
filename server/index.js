@@ -1,12 +1,16 @@
 import "./config.js";
 import express from "express";
-// import cors from "cors";
+import cors from "cors";
 import bodyParser from "body-parser";
 import noteRouter from './routes/note.router.js'
 
 const app = express();
 
-// app.use(cors());
+app.use(cors({
+    origin: process.env.ALLOWED_ORIGIN,
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type']
+}));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.json());
