@@ -1,7 +1,7 @@
 # Keeper App
 
 A Simple Notes Web Application 
-<<img  src="https://github.com/CelestialEchos/Keeper-App/blob/main/client/public/demo.gif?raw=true" />
+<img  src="https://github.com/CelestialEchos/Keeper-App/blob/main/client/public/demo.gif?raw=true" />
 
 ## LANGUAGES, FRAMEWORKS, LIBRARY DATABASE AND Deployment
 ### 🟨Frontend
