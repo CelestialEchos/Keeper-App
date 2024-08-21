@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:4000/api/v1/notes',
+    baseURL: 'https://keeper-app-delta.vercel.app/api/v1/notes',
     headers: { 
         "Content-Type": "application/json"
     }
