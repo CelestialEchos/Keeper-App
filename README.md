@@ -8,10 +8,9 @@ A Simple Notes Web Application
 - HTML5
 - CSS3
 - ES6(JavaScript)
-- REACT.js
+- React.js
 - Axios
 - Vite.js
-- Node.js
 ### 🟩Backend
 - ES6(JavaScript)
 - Express.js
